@@ -1,0 +1,51 @@
+<html>
+
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <h1> Count On Me </h1>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" type="text/css" href="JavaScriptCalculator.css">
+                <script src="js.js" ></script>
+        </head>
+
+
+<br>
+<div class="layout">
+    <div class="viewLayout">
+
+        <input type="text" class="viewScreen" id="view" />
+
+    </div>
+
+    <div class="buttonLayout">
+        
+        <div class="btnRow">
+            <input type="button" class="button" value="7" onclick="input('7')" />
+            <input type="button" class="button" value="8" onclick="input('8')" />
+            <input type="button" class="button" value="9" onclick="input('9')" />
+            <input type="button" class="button" value="+" onclick="operates('add')" />
+        </div>
+        <div class="btnRow">
+            <input type="button" class="button" value="4" onclick="input('4')" />
+            <input type="button" class="button" value="5" onclick="input('5')" />
+            <input type="button" class="button" value="6" onclick="input('6')" />
+            <input type="button" class="button" value="-" onclick="operates('subtract')" />
+        </div>
+        <div class="btnRow">
+            <input type="button" class="button" value="1" onclick="input('1')" />
+            <input type="button" class="button" value="2" onclick="input('2')" />
+            <input type="button" class="button" value="3" onclick="input('3')" />
+            <input type="button" class="button" value="x" onclick="operates('multiply')" />
+        </div>
+        <div class="btnRow">
+            <input type="button" class="button" value="0" onclick="input('0')" />
+            <input type="button" class="button" value="." onclick="decimal('.')" />
+            <input type="button" class="button" value="C" onclick="clearView()" />
+            <input type="button" class="button" value="=" onclick="result()" />
+        </div>
+
+    </div>
+</div>
+
+</html>

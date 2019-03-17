@@ -1,0 +1,54 @@
+html {
+  background-image: url("calculate.jpeg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  background-color: bisque;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 50px;
+  text-align: center;
+}
+.buttonLayout {
+  background-color: aqua;
+  float: left;
+  color:black;
+  font-size: 50px;
+  margin: 30px;
+  height: 68%;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.viewScreen {
+  top: 60px;
+  background-color: aqua;
+  float: left;
+  color:black;
+  font-size: 75px;
+  margin: 30px;
+  height: 50%;
+  left: 0;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+.button {
+  background-color: dimgray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 50px;
+  margin: 4px;
+  border-radius: 30%;
+}
